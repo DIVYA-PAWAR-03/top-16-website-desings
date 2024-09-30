@@ -6,7 +6,7 @@
 --container-color:#FFD02F;
 ---Button-text-color:#ffffff ;
 --dim-text-color:#6c6c83;
---border: 0.7px solid #f9f6f6;
+--border: 0.7px solid #f7f6f9;
 --border-radius:30px;
 --link-color: #4262FF;
  --hover-btn-color:#f0f0ff;
@@ -24,27 +24,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-     /* box-shadow: 0 0 0 1px red;   */
+     /* y */
 }
 body{
     background-color: white;
-    font-family: "Inter", sans-serif ;
-   
+    font-family: "Inter", sans-serif ;  
 }
 p, h1,h2, h3, h4 ,a, i{
  font-family: "Inter", sans-serif ;
 }
-
-
-
+link , button ,a,i{
+    cursor: pointer;
+}
 .nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    border-bottom: .3px solid rgb(248, 240, 240);
-    
+    border-bottom: .3px solid rgb(248, 240, 240);  
 }
 .nav-section .left{
     display: flex;
@@ -66,21 +63,17 @@ p, h1,h2, h3, h4 ,a, i{
 }
 .nav-section .links li{
     list-style: none;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .nav-section .links li a{
     text-decoration: none;
     color: var(--secondary-color);
     font-weight: 500;
-    font-size: 1rem; 
-    
-    
+    font-size: 1rem;    
 }
 .nav-section .links .fa-chevron-down{
     margin-left: .2rem;
-    color: var(--primary-color);
-    
+    color: var(--primary-color);  
 }
 .right{
     display: flex;
@@ -90,9 +83,7 @@ p, h1,h2, h3, h4 ,a, i{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-   
-   
+    gap: 1rem;  
 }
  
 .right-links li{
@@ -102,37 +93,26 @@ p, h1,h2, h3, h4 ,a, i{
     text-decoration: none;
     color: var(--secondary-color);
     font-weight: 500;
-    font-size: 1rem;
-    
-    
+    font-size: 1rem;    
 }
  .right .img-global{
     display: flex;
     align-items: center;
-
 }
-
-
 .right .btn{
     /* display: flex;
     align-items: center; */
     padding: 1.1rem 1.6rem;
-    
     font-size: 1rem;
     color: var(---Button-text-color);
     background-color: var(--Button-bg-color);
    border: none;
     border-radius: var(--border-radius);
     margin: 1rem 2rem 1rem 1rem;
-    
-
 }
 .fa-arrow-right-long{
     margin-left: .5rem;
 }
-
- 
-
 .main--container{
     display: flex;
     justify-content: space-between;
@@ -151,21 +131,17 @@ p, h1,h2, h3, h4 ,a, i{
     color: var(--primary-color);
     font-weight: bolder;
     font-size: 3.6rem;
-    text-align: justify;
-    
+    text-align: justify; 
  }
  .text-section .info{
     color: var(--dim-text-color);
     font-size:1rem ;
     margin: 1rem 5rem 1rem 0;  
-    text-align: justify;
-    
+    text-align: justify;  
  }
  .button-section{
     display: flex;
-    flex-direction: column;
-
-    
+    flex-direction: column; 
  }
  .button-section input{
     padding: .8rem .9rem;
@@ -173,8 +149,6 @@ p, h1,h2, h3, h4 ,a, i{
     border-radius: var(--border-radius);
     font-size: 1rem;
     margin-bottom: .6rem;
-    
-    
  }
  
  .button-section .btn{
@@ -190,7 +164,7 @@ p, h1,h2, h3, h4 ,a, i{
     font-size: .9rem;
     padding-top: .6rem;
     color: var(--dim-text-color);  
-    margin-right:9.9rem ;
+     margin-right:9.9rem ;
     
  }
 .icons-section{
@@ -201,17 +175,16 @@ p, h1,h2, h3, h4 ,a, i{
     border: .6px solid  #f4eeee;
     margin-top: 2rem;
     background-color: #f5f5f5;
-    border-radius: 12px; 
-     
+    border-radius: 12px;   
 }
 .icon-para{
-    display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
    margin-right: 1.8rem;
    margin-left: .5rem;
-    text-align: justify;
+    text-align: justify; 
 }
 
 .icon-para p{
@@ -225,8 +198,7 @@ p, h1,h2, h3, h4 ,a, i{
 }
 .icons-section i{
     color: #daa520;
-    font-size: 1rem;
-    
+    font-size: 1rem; 
 }
 .icons-section h4{
     padding-left: 1rem;
@@ -243,10 +215,7 @@ p, h1,h2, h3, h4 ,a, i{
     margin:  3rem 6rem 0;
 }
 .image-section .map-img{
-   
-    margin-bottom: .7rem;
-   
-    
+    margin-bottom: .7rem; 
 }
 .next--container .section2{
     display: flex;
@@ -298,9 +267,7 @@ p, h1,h2, h3, h4 ,a, i{
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    margin: 3rem 0 0 3rem;
-    
-   
+    margin: 3rem 0 0 3rem;   
 }
 .desc-section .sub-head{
     font-weight: 900;
@@ -357,7 +324,6 @@ p, h1,h2, h3, h4 ,a, i{
     font-weight: bolder;
     font-size: 3rem;
     text-align: justify;
-    
  }
  
  .text-section-second .lil-desc {
@@ -395,16 +361,14 @@ p, h1,h2, h3, h4 ,a, i{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 .text-sec-connect .connect-heading{
     color: var(--primary-color);
     font-weight: bolder;
     font-size: 3rem;
     text-align: justify;
-    margin-right: 7rem;
-    
+    margin-right: 7rem;  
  }
 .text-sec-connect .descr{
     color: var(--dim-text-color);
@@ -501,8 +465,6 @@ p, h1,h2, h3, h4 ,a, i{
     font-size: 2rem;
     text-align: justify;
     margin-right: 1.9rem;
-    
-    
 }
 .text-sec-four .desc-4{
     color: var(--dim-text-color);
@@ -519,7 +481,6 @@ p, h1,h2, h3, h4 ,a, i{
    text-decoration: none;
     margin-right: 6rem;
     margin-top: 2rem;
-    
  }
  .wire-frames{
     display: flex;
@@ -535,7 +496,6 @@ p, h1,h2, h3, h4 ,a, i{
     font-size: 1.3rem;
     color: var(--dim-text-color);
     text-align: justify;
-
  }
  .text-section-5 .desc-5 i{
     color: var(--primary-color);
@@ -545,8 +505,7 @@ p, h1,h2, h3, h4 ,a, i{
     font-family: 400;
     margin-left: 1rem;
     text-decoration: none;
-    color: var(--link-color);
-     
+    color: var(--link-color);  
  }
  .wire-frames .text-section-5 .learn-more{
     margin-top: 3rem;
@@ -575,6 +534,7 @@ p, h1,h2, h3, h4 ,a, i{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
     gap: 1rem;
     padding-top: 7rem;
@@ -583,29 +543,28 @@ p, h1,h2, h3, h4 ,a, i{
  .review-section .review-heading h1{
         font-size: 3rem;
         font-weight: 900;
-        color: var(--primary-color);
-        
+        text-align: center;
+        color: var(--primary-color);  
  } 
  .yellow-container .trust-heading p{
     text-decoration: underline;
     text-underline-offset: 3px;
     font-size: 1.1rem;
+    text-align: center;
     color: var(--secondary-color);
  }
  .yellow-container .section-one,
  .section-two{
      display: flex;
     justify-content: center;
+    text-align: center;
     gap: 4rem;
     margin-top: 5rem;
-    align-items: center; 
-    
+    align-items: center;  
  }
  .yellow-container .section-one .trust-section,
- .yellow-container .section-two .trust-section{
-    
+ .yellow-container .section-two .trust-section{ 
     width: 350px;
-
  }
  .yellow-container .section-one .trust-section h1,
  .yellow-container .section-two .trust-section h1{
@@ -615,9 +574,7 @@ p, h1,h2, h3, h4 ,a, i{
     color: var(--primary-color);
     display: flex;
     justify-content: center;
-    align-items: center; 
-    
-   
+    align-items: center;  
  }
  .yellow-container .section-one .trust-section p,
  .yellow-container .section-two .trust-section p{
@@ -632,7 +589,6 @@ p, h1,h2, h3, h4 ,a, i{
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-
 }
 .review-section .review-heading .customer{
     padding: 1rem 4rem;
@@ -683,16 +639,12 @@ p, h1,h2, h3, h4 ,a, i{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .3rem;
-    
-   
-    
+    gap: .3rem;   
 }
 
 .members .members--container .identity{
     color: var(--dim-text-color);
-    font-size: 1rem;
-    
+    font-size: 1rem;  
 }
 .members .members--container .identity p{
     padding-top: .2rem;
@@ -705,18 +657,17 @@ p, h1,h2, h3, h4 ,a, i{
     text-align: center;
     justify-content: center;
     background-color: var(--primary-color);
-    margin: 13rem;
     border-radius: 10px;
-
-   
-
-
+    width: 1000px;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
+
 .blue-container .join-heading h1{
     margin-top: 7rem;
     font-size: 3rem;
     color: var(--Background-color);
-    
 }
 .blue-container .join-heading p{
     color: rgb(123, 123, 157);
@@ -730,7 +681,6 @@ p, h1,h2, h3, h4 ,a, i{
     flex-direction: column;
     align-items: center;
     gap: 2rem;
- 
  }
  .blue-container .organization p{
     color: rgb(123, 123, 157);
@@ -747,22 +697,20 @@ p, h1,h2, h3, h4 ,a, i{
     border-radius: var(--border-radius);
     margin-bottom:7rem ;
     font-family: var(--font-family);
-
+    cursor: pointer;
 }
 
 .footer{
     background-color: var(--primary-color);
     color: var(--Background-color);
-    width: 100%;
-    
+    width: 100%; 
 }
 .footer .link-section-footer{
     display: flex;
    padding-top: 4rem;
      justify-content: space-around; 
     height: 600px; 
-    text-align: justify;
-   
+    text-align: justify; 
 }
  .line-section{
     width: 95%;
@@ -771,47 +719,59 @@ p, h1,h2, h3, h4 ,a, i{
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.footer .link-section-footer .product h1{
-   
-     padding-bottom: 1rem; 
-    font-size: 1rem;
-
+.footer .link-section-footer .product {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+    text-align: justify;
+    
 }
-.footer .link-section-footer .product p{
-    font-weight: 300;
-     padding-top: .8rem; 
-     
+.footer .link-section-footer .product h1{
+     padding-bottom: 1.5rem; 
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-left: 1rem;
+}
+.footer .link-section-footer .product li{
+    list-style: none;
 }
 .footer .link-section-footer .product a{
-    color: var(--Background-color);
-    text-underline-offset: 4px;
+    font-weight: 300;
+     padding-top: .8rem;  
+     text-decoration: none;
+     color: var(---Button-text-color);
+     margin: 1rem;
+     text-align: justify;
+
      
+}
     
+     
+.footer .link-section-footer .product .contact-sales a,
+.footer .link-section-footer .product .view-demo a{
+    color: var(--Background-color);
+    text-underline-offset: 4px;  
 }
 .footer .link-section-footer .product {
     height: 300px;
     position: relative;
+    
 }
 .footer .link-section-footer .product .view-demo,
 .footer .link-section-footer .product .contact-sales {
     margin-top: 1rem;
 }
 .product .careers{
-    transform: translateY(-28px);
+    transform: translateY(-8px);
     position: absolute;
-    right: 35%;
-  
-    
-    
+    right: 35%;  
 }
 
  .footer .bootom-bar{
     display: flex;
     align-items:center;
     justify-content: space-between;
-    
-   
-
 }
 .footer .bootom-bar .bottom-bar-icons{
     display: flex;
@@ -822,11 +782,9 @@ p, h1,h2, h3, h4 ,a, i{
 }
 .footer .bootom-bar .bottom-bar-icons i{
     transition: 24ms;
-   
 }
 .footer .bootom-bar .bottom-bar-icons i:hover{
     transform: scale(1.1,1.1);
-
 }
 .footer .bootom-bar .bottom-bar-links{
     display: flex;
@@ -834,22 +792,15 @@ p, h1,h2, h3, h4 ,a, i{
     gap: 1rem;
     white-space: nowrap;
     font-size: .9rem;
-  position: relative;
-    
-    
-
+  position: relative;   
 }
 .bottom-bar-img{
     display: flex;
     align-items: center;
-     gap: .3rem;
-   
-   
-  
+     gap: .3rem; 
 }
  .img-global2{
     transform: translateY(-2px);
-    
 }
 .bottom-bar-links li{
 list-style: none;
@@ -857,33 +808,24 @@ list-style: none;
 .bottom-bar-links a{
     text-decoration: none;
     color: var(--Background-color);
-    white-space: nowrap;
-    
+    white-space: nowrap; 
 } 
 .bootom-bar .right-bottom-sec{
-    /* display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: end;
-    margin-top: 1rem;
-    margin-bottom: 1rem; */
     display: flex;
     align-items: center;
-    gap: .7rem;
-    padding: 2rem;
-    
-
-    
-
+    gap: .5rem;
+    padding: 2rem; 
+}
+.bootom-bar .right-bottom-sec .app .app-desc p,
+.bootom-bar .right-bottom-sec .app .play-desc p{
+    font-size: .8rem;
 }
 .bootom-bar .right-bottom-sec .app{
     display: flex;
     align-items: center;
     white-space: nowrap;
-    border: var(--border);
-    padding: .5rem 1rem;
+    border: 0.7px solid #8f8f8f;
+    padding: .3rem .6rem;
     border-radius: 10px;
-    
+    gap: .3rem;
 } 
-
-
