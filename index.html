@@ -80,16 +80,35 @@
   </head>
   <body>
     <h1>Top 16 website designs</h1>
-    <ul class="links">
+    <ul class="links" id="all_site_links">
+      <!-- all sites url will be here -->
+
+      <!-- example element 
+       
       <li class="link">
-        <a href="gravityteam.co/index.html">gravityteam.co</a>
-      </li>
-      <li class="link">
-        <a href="postpilot.com/index.html">postpilot.com</a>
-      </li>
-      <li class="link">
-        <a href="chowdeck.com/index.html">chowdeck.com</a>
-      </li>
+        <a href="${site}/index.html">${site}</a>
+      </li> 
+      
+      -->
     </ul>
+
+    <!-- loading all site links -->
+    <script>
+      // put your site title (title should match folder name for perticular site)
+
+      const allSites = ["gravityteam.co", "postpilot.com", "chowdeck.com"];
+
+      const all_site_links = document.getElementById("all_site_links");
+
+      allSites.map((site) => {
+        const element = `
+        <li class="link">
+          <a href="${site}/index.html">${site}</a>
+        </li>
+        `;
+
+        all_site_links.innerHTML += element;
+      });
+    </script>
   </body>
 </html>
