@@ -1,20 +1,62 @@
-@media screen and (max-width:1200px){
-    .left .logo{
-        font-size: .9rem;
+@media screen and (max-width: 1120px) {
+   .left .logo{
+        font-size: .7rem;
     }
-    .nav-section .links a{
-        font-size: .6rem;
+    .nav-section .links li a{
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-weight: 500;
+        font-size: .8rem;    
+    }
+    .nav-section .links .fa-chevron-down{
+       font-size: .6rem;
+        color: var(--primary-color);  
+        margin-left: .1rem;
+    }
+    .right-links li a{
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-weight: 500;
+        font-size: .8rem;    
     }
     .right .btn{
-        padding: .8rem 1rem;
-     font-size: .8rem;
-     
+        padding: .8rem .9rem;
+        font-size: .8rem;
+        color: var(---Button-text-color);
+        background-color: var(--Button-bg-color);
+       border: none;
+        border-radius: var(--border-radius);
+        margin: 1rem 2rem 1rem 1rem;
     }
     .fa-arrow-right-long{
-        margin-left: .3rem;
+        margin-left: .1rem;
     }
-    .text-section .main-heading{
-        font-size: 2.6rem;
+    .right .img-global{ 
+        height: 30px;
     }
+}
 
+@media screen and (max-width:940px) {
+   .btn .fa-arrow-right-long{
+    display: none;
+   }
+   .left .logo{
+    font-size: .7rem; 
+}
+.nav-section .links{ 
+    gap: .5rem;
+}
+.nav-section .links .fa-chevron-down{
+    margin-left: .1rem;
+    color: var(--primary-color);  
+}
+.left .logo{
+    font-weight:600 ;
+    font-size: .5rem;
+    color: var(--primary-color);
+    margin:0  .6rem 0 .9rem;
+}
+.right .right-links{
+    gap: .5rem;  
+}
 }
