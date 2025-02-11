@@ -87,14 +87,15 @@
   }
   .right .btn {
     font-size: 1rem;
+  } 
+  .hamburgur .line{
+    display: unset;
+    margin-right: 1rem;
   }
   /* .log{
           margin-right: 10rem;
      }    */
-  .hamburgur .line {
-    display: unset;
-    margin-right: 2rem;
-  }
+   
   .res-nav{
     position: fixed;
     right: 0;
@@ -108,6 +109,7 @@
     z-index: 99;
     display: unset;
     margin-top: 4rem;
+    
   }
   .res-nav .res-links li{
      list-style: none;
@@ -150,4 +152,4 @@
 .res-nav .res-links #signup{
     display: unset;
 }
-}
+} 
