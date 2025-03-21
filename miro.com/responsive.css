@@ -34,6 +34,253 @@
   .right .img-global {
     height: 30px;
   }
+  .text-section .main-heading{
+    font-size: 3rem;
+  }
+  .image-section .map-img img{
+    width: 400px;
+    
+  }
+  .next--container .section2{
+    gap: 2rem;
+  }
+  .logo-section{
+    gap: 3rem;
+  }
+  .sub-heading{
+    font-size: 2rem;
+  }
+  .idea {
+    left: 40%;
+  }
+  .desc-section{
+   gap: 1rem;
+   margin: 0;
+   margin: 2rem 0 0 1rem;
+  } 
+  .desc-section .desc1,
+  .desc2,
+  .decs3 { 
+    gap: 1.5rem;
+   
+  }
+  .main--container {
+    margin: 0;
+  }
+  .text-section .info {
+    margin-left: 3rem;
+   
+  }
+  .work-section {
+    flex-direction: column;
+  }
+  .text-section-second .text-section-heading{
+       text-align: center;
+  }
+  .text-section-second a ,
+  .text-sec-connect a,
+  .text-sec-four a  {
+    
+    font-size: 1.2rem;
+    margin: auto;
+    
+  }
+  .text-section-second .lil-desc {
+    
+    text-align: center;
+    
+  }
+   .image-sec-two img{
+    margin-top: 3rem ; 
+    margin-left: 4rem;
+
+  }
+  .connect-tools{
+    flex-direction: column  ;
+}
+.text-sec-connect .connect-heading{
+  
+  text-align: center;
+  margin: 0;
+
+  margin-top: 2rem;
+}
+.text-sec-connect .descr{
+  margin: 0;
+  text-align: center;
+}
+.front-img {
+  width: 90vw;
+     margin: 0 auto;
+}
+.braistroming-main{
+  flex-direction: column;
+}
+.text-sec-four .braistroming-heading{
+  font-size: 3rem;
+  margin: 0;
+}
+.text-sec-four .desc-4 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0;
+}
+.yellow-container{
+  width: 100vw;
+ 
+}
+.blue-container{
+  margin:  auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100vw;
+}
+.footer{
+  width: 100vw;
+  height:100vh;
+}
+.footer .link-section-footer {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+}
+
+@media screen and (max-width: 1115px) {
+  .left .logo {
+    font-size: 0.75rem;
+  }
+  .nav-section .links li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 0.85rem;
+  }
+  .nav-section .links .fa-chevron-down {
+    font-size: 0.65rem;
+    color: var(--primary-color);
+    margin-left: 0.15rem;
+  }
+  .right-links li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 0.85rem;
+  }
+  .right .btn {
+    padding: 0.85rem 1rem;
+    font-size: 0.85rem;
+    color: var(---Button-text-color);
+    background-color: var(--Button-bg-color);
+    border: none;
+    border-radius: var(--border-radius);
+    margin: 1rem 2rem 1rem 1rem;
+  }
+  .fa-arrow-right-long {
+    margin-left: 0.15rem;
+  }
+  .right .img-global {
+    height: 32px;
+  }
+  .text-section .main-heading {
+    font-size: 3.2rem;
+  }
+  .image-section .map-img img {
+    width: 420px;
+  }
+  .next--container .section2 {
+    gap: 2.5rem;
+  }
+  .logo-section {
+    gap: 3.5rem;
+  }
+  .sub-heading {
+    font-size: 2.2rem;
+  }
+  .idea {
+    left: 45%;
+  }
+  .desc-section {
+    gap: 1.2rem;
+    margin: 2.2rem 0 0 1.2rem;
+  }
+  .desc-section .desc1,
+  .desc2,
+  .decs3 {
+    gap: 1.7rem;
+  }
+  .main--container {
+    margin: 0;
+  }
+  .text-section .info {
+    margin-left: 3.2rem;
+  }
+  .work-section {
+    flex-direction: column;
+  }
+  .text-section-second .text-section-heading {
+    text-align: center;
+  }
+  .text-section-second a,
+  .text-sec-connect a,
+  .text-sec-four a {
+    font-size: 1.25rem;
+    margin: auto;
+  }
+  .text-section-second .lil-desc {
+    text-align: center;
+  }
+  .image-sec-two img {
+    margin-top: 3.2rem;
+    margin-left: 4.2rem;
+  }
+  .connect-tools {
+    flex-direction: column;
+  }
+  .text-sec-connect .connect-heading {
+    text-align: center;
+    margin: 0;
+    margin-top: 2.2rem;
+  }
+  .text-sec-connect .descr {
+    margin: 0;
+    text-align: center;
+  }
+  .front-img {
+    width: 92vw;
+    margin: 0 auto;
+  }
+  .braistroming-main {
+    flex-direction: column;
+  }
+  .text-sec-four .braistroming-heading {
+    font-size: 3.2rem;
+    margin: 0;
+  }
+  .text-sec-four .desc-4 {
+    font-size: 1.35rem;
+    text-align: center;
+    margin: 0;
+  }
+  .yellow-container {
+    width: 100vw;
+  }
+  .blue-container {
+    margin: auto;
+    margin-top: 2.2rem;
+    margin-bottom: 2.2rem;
+    width: 100vw;
+  }
+  .footer {
+    width: 100vw;
+    height: 100vh;
+  }
+  .footer .link-section-footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 940px) {
@@ -152,4 +399,4 @@
 .res-nav .res-links #signup{
     display: unset;
 }
-} 
+}

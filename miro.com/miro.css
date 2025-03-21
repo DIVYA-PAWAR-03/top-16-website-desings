@@ -241,6 +241,7 @@ i {
 }
 .image-section .map-img {
   margin-bottom: 0.7rem;
+  object-fit: cover;
 }
 .next--container .section2 {
   display: flex;
